@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    display: flex;
+}
+header{
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+nav{
+    margin-right: 20px;
+    overflow-y: scroll;
+}
+main{
+    overflow-y: scroll;
+}
+p{
+    font-size: 0.9em;
+}
+.nav-link{
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+@media only screen and (max-width: 576px){
+    body{
+        background-color: aliceblue;
+    }
+}
